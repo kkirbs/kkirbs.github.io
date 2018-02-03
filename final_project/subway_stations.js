@@ -174,7 +174,7 @@ function getOrderedStations(selectedLine) {
 }
 
 function getAllTimes(selectedLine) {
-	var mtaUrl = 'http://54.90.113.57/getTime/';
+	var mtaUrl = 'https://54.90.113.57/getTime/';
 	var selectedStations = getOrderedStations(selectedLine);
 	for(i=0; i<selectedStations.length; i++) {
 		var mtaLine = selectedLine + '/';
