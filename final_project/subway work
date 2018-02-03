@@ -1,0 +1,41 @@
+
+// Station ID,Complex ID,GTFS Stop ID,Division,Line,Stop Name,Borough,Daytime Routes,Structure,GTFS Latitude,GTFS Longitude
+
+function createStations() {
+  var allStationData =  {
+    stationOneData: {
+      StationId:
+      compledId:
+      gtfsStopId:
+      Division:
+      Line:
+      stopName:
+      Borough:
+      daytimeRoutes:
+      Structure:
+      LinesAvailable:
+      gtfsLatitude:
+      gtfsLongitude:
+    }
+  }
+}
+
+// $(document).ready(function() {
+//   // var baseURL = "http://mtaapi.herokuapp.com/api?id=902N";
+//   var PROXY_URL = "https://accesscontrolalloworiginall.herokuapp.com/";
+//   var API_KEY = "key=1377b15bd97c44385565391404530b53";
+//   var feedId = "feed_id=1";
+//   var baseURL = "http://datamine.mta.info/mta_esi.php?" + API_KEY + "&" + feedId;
+//   var totalUrl = PROXY_URL + baseURL;
+//   console.log(baseURL);
+//
+//   var request = $.ajax(totalUrl, {
+//     dataType: "json",
+//     key: API_KEY,
+//     feed_id: 1
+//   });
+//   request.done(function(response) {
+//     console.log('hello request');
+//     console.log(response);
+//   });
+// });

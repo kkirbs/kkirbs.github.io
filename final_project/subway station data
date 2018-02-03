@@ -1,0 +1,21 @@
+function createStations() {
+  var stationData = array.split(,)
+  Var allStationData =  {
+    stationOneData: {
+      StationId: stationId
+      completedId: completeId
+      gtfsStopId: gtfsStopId
+      division: division
+      line: line
+      stopName: stopName
+      borough: borough
+      daytimeRoutes:
+      Structure:
+      LinesAvailable: [1,2,3]
+      gtfsLatitude:
+      gtfsLongitude:
+    }
+  }
+}
+
+

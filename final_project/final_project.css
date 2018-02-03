@@ -1,0 +1,81 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+.hamburgerMenu {
+  font-size:30px;
+  cursor:pointer;
+  position: absolute;
+  top: 5px;
+  left: 15px;
+}
+
+.sidenav {
+  height: 380px;
+  width: 220px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: -220px;
+  background-color: rgba(255,255,255,0.6);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  padding-left: 10px;
+
+}
+
+.menuOpen .sidenav {
+  left: 0;
+}
+
+.menuOpen .hamburgerMenu {
+  display: none;
+}
+
+.groupTrains {
+  display: inline-block;
+  width: 100%;
+}
+
+.trainLines {
+  margin-bottom: 6px;
+}
+
+.lineButton {
+  border: 0;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  font-size: 24px;
+  width: 36px;
+  height: 36px;
+  font-weight: 500;
+  font-family: Helvetica;
+  outline: 0;
+}
+
+.showButton, .hideButton {
+  border: 0;
+  border-radius: 15px;
+  background-color: #222;
+  color: white;
+  font-size: 20px;
+  padding: 2px 10px;
+  margin-bottom: 10px;
+  outline: 0;
+}
+}
+
+.mapboxgl-canvas-container {
+  position: relative;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
